@@ -12,6 +12,18 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		<style>
+			#ror_ditz {
+				font-size: 60%;
+			}
+			h3 {
+				color: rgb(255, 255, 255) !important;
+				border: 1pz dotted red;
+				padding: 5px;
+				background-color: brown;
+				border-radius: 10px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -36,7 +48,7 @@
 				<section class = "center"><h2>Доходность</h2></section>
 				<section data-markdown = "markdown/rate_of_return.md " style="font-size: 60%"></section> 
 				<section>
-				<section data-markdown style="font-size: 75%;"><script type="text/template">
+				<section data-markdown id = "ror_ditz"><script type="text/template">
 					### Доходность по методу Дитца
 - $R$ - доходность портфея в процентах (rate of return)
 - $S_e$ - стоимость портфеля на конец года (end of the period)
